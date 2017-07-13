@@ -2,6 +2,10 @@ version: 2
 jobs:
   build:
     working_dirctory: /opt/test
+    docker:
+      - image: ruby
     steps:
       - checkout
-      - run: printenv
+      - run: 
+        name: poe
+        commands: printenv
