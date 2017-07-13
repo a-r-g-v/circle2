@@ -3,4 +3,5 @@ jobs:
   build:
     working_dirctory: /opt/test
     steps:
-      run: printenv
+      - checkout
+      - run: printenv
