@@ -7,5 +7,5 @@ jobs:
     steps:
       - checkout
       - run: 
-        name: poe
-        commands: printenv
+          name: poe
+          commands: printenv
