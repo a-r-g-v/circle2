@@ -1,0 +1,6 @@
+version: 2
+jobs:
+  build:
+    working_dirctory: /opt/test
+    steps:
+      - run: printenv
